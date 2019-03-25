@@ -1,0 +1,38 @@
+header::after{
+  content: "";
+  display: block;
+  height: 5.5rem;
+}
+a.social-media i {
+  font-size: 1.5em;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  transition: 0.4s;
+}
+a.social-media:hover i {
+  transform: scale(2);
+  transition: 0.2s;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+a.social-media:hover i.fa-facebook-f{background-color: #3b5998}
+a.social-media:hover i.fa-twitter{background-color: #00aced}
+a.social-media:hover i.fa-google-plus-g{background-color: #dd4b39}
+a.social-media:hover i.fa-whatsapp{background-color: #34af23}
+a.social-media:hover i.fa-instagram{background-color: #517fa4}
+a.social-media:hover i.fa-youtube{background-color:  #bb0000}
+a.social-media:hover i.fa-linkedin-in{background-color:#0976b4}
+.footer-copyright a::after{
+  font-size: 0em;
+  content: " the creator!";
+  transition: 0.1s;
+  color: black;
+}
+.footer-copyright a:hover::after{
+  content: " the creator!";
+  color: white;
+  font-size: 0.9em;
+  transition: 0.2s;
+  transform: scale(0.9);
+}
