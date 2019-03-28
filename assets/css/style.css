@@ -36,3 +36,6 @@ a.social-media:hover i.fa-linkedin-in{background-color:#0976b4}
   transition: 0.2s;
   transform: scale(0.9);
 }
+.footer-copyright a:hover {
+  text-decoration: none;
+}
