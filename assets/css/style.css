@@ -1,6 +1,6 @@
-@import url('http://fonts.googleapis.com/css?family=Bad+Script');
 body {
   --header-height: 60px;
+  scroll-behavior: smooth;
 }
 .carousel {
   height: calc(100vh - var(--header-height));
@@ -77,7 +77,10 @@ h1 > i:nth-child(20) {animation-delay: 1.9s}
   right: 30%;
   border-radius: 5px;
 }
-header {height: var(--header-height)}
+header {
+  height: var(--header-height);
+  /* background-color: #0001; */
+}
 a.social-media i {
   font-size: 1.5em;
   width: 32px;
