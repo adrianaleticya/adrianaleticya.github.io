@@ -1,8 +1,29 @@
-header::after{
-  content: "";
-  display: block;
-  height: 5.5rem;
+body {
+  --header-height: 60px;
 }
+.carousel {
+  height: calc(100vh - var(--header-height));
+  /* display: flex;
+  align-items: center; */
+  background-color: rgba(134, 64, 148, 0.493)
+}
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  height: calc(100vh - var(--header-height));
+}
+.carousel-vid {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+header {height: var(--header-height)}
 a.social-media i {
   font-size: 1.5em;
   width: 32px;
@@ -16,13 +37,13 @@ a.social-media:hover i {
   border: 1px solid white;
   border-radius: 2px;
 }
-a.social-media:hover i.fa-facebook-f{background-color: #3b5998}
-a.social-media:hover i.fa-twitter{background-color: #00aced}
+a.social-media:hover i.fa-facebook-f   {background-color: #3b5998}
+a.social-media:hover i.fa-twitter      {background-color: #00aced}
 a.social-media:hover i.fa-google-plus-g{background-color: #dd4b39}
-a.social-media:hover i.fa-whatsapp{background-color: #34af23}
-a.social-media:hover i.fa-instagram{background-color: #517fa4}
-a.social-media:hover i.fa-youtube{background-color:  #bb0000}
-a.social-media:hover i.fa-linkedin-in{background-color:#0976b4}
+a.social-media:hover i.fa-whatsapp     {background-color: #34af23}
+a.social-media:hover i.fa-instagram    {background-color: #517fa4}
+a.social-media:hover i.fa-youtube      {background-color: #bb0000}
+a.social-media:hover i.fa-linkedin-in  {background-color: #0976b4}
 .footer-copyright a::after{
   font-size: 0em;
   content: " the creator!";
