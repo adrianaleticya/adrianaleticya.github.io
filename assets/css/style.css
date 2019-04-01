@@ -68,8 +68,8 @@ nav {
 .nav-item {
   transition: .5s;
   text-transform: uppercase;
-  transform: scale(1);
   box-sizing: border-box;
+  font-weight: normal;
 }
 .navbar-nav:hover .nav-item{
   filter: blur(2.5px);
@@ -80,6 +80,7 @@ nav {
   text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff;
   filter: blur(0);
   transform: scale(1.5);
+  font-weight: bold;
 }
 a.social-media i {
   font-size: 1.5em;
